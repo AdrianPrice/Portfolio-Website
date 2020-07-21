@@ -1,0 +1,247 @@
+@charset "UTF-8";
+html {
+	scroll-behavior: smooth;
+}
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding-top: 120px;
+    border-radius: 5px;
+	font-family: 'Comfortaa', cursive;
+}
+
+blockquote footer {
+	float: right;
+	padding-right: 30%;
+	font-family: 'Comfortaa', cursive;
+	line-height: 5px;
+	font-weight: 400;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+
+
+
+.Landing div{
+	height: 100vh;
+	margin-top: 0px;
+	padding-top: 0px;
+	top: 0px;
+	text-align: center;
+}
+.Landing h1{
+	font-family: 'Bebas Neue', cursive;
+	padding-top: 15%;
+	line-height: 5px;
+	font-weight: 400;
+	font-size: 70px;
+}
+
+.Landing h2{
+	font-family: 'Comfortaa', cursive;
+	line-height: 5px;
+	font-weight: 400;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.Landing p {
+	font-family: 'Comfortaa', cursive;
+	line-height: 5px;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.Landing img {
+	width: 5%;
+	padding-top: 20px;
+}
+.navbar {
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	background-color: #25274D;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.navbar img{
+	margin-top: 150px;
+	height: 20%;
+	border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+  	border-bottom-right-radius: 50% 50%;
+  	border-bottom-left-radius: 50% 50%;
+}
+
+.navbar a {
+	display:block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+  	font-size: 25px;
+ 	color: #AAABB8;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+}
+.navbar a:hover {
+	color: white;
+	font-size: 28px;
+}
+
+.navbar div{
+	padding-top: 200px;
+}
+
+.experience h1 {
+	padding-top: 7%;
+}
+
+.job ul ul {
+	padding-left: 30px;
+}
+
+.school img, .job img {
+	height: 30px;
+	
+}
+.school h2, .job h2, .extra h2{
+	display: inline-block;
+	padding-left: 20px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	line-height: 0;
+}
+
+.school h4, .job h4, .extra h4{
+	display: inline-block;
+	float: right;
+	font-family: 'Comfortaa', cursive;
+	line-height: 0;
+	font-size: 15px;
+}
+
+.school h3, .job h3 , .extra h3{
+	padding-top: 0px;
+	vertical-align: top;
+	line-height: 0;
+	color: #AAABB8;
+	font-family: 'Comfortaa', cursive;
+	padding-left: 80px;
+	font-size: 15px;
+}
+
+.extracurriculars h1 {
+	padding-top: 7%; 
+}
+
+.extra h3 {
+	margin-top: 10px;
+	padding-left: 40px;
+	font-size: 15px;
+}
+
+.school ul, .job ul {
+	color: #AAABB8;
+	font-family: 'Comfortaa', cursive;
+	padding-left: 120px;
+	font-size: 12px;
+}
+
+.education h1, .experience h1, .projects h1, .contact h1, .extracurriculars h1 {
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.education div, .experience div, .projects div, .contact div, .extracurriculars div{
+	height: 100vh;
+	margin-top: 0px;
+	top: 0px;
+	padding-left: 30px;
+	padding-right: 50px;
+	padding-top: 10px;
+}
+
+.education h1 {
+	padding-top: 10%;
+}
+
+.school, .job {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+
+.projLeft div {
+	float: left;
+	width: 41%;
+	height: 35vh;
+}
+
+.projects img {
+	width: 40%;
+	display: inline-block;
+	margin-right: 25px;
+	outline-color: black;
+	outline-style: solid;
+	outline-width: 2px;
+	margin-bottom: -50px;
+}
+
+
+.projRight div {
+	float: right;
+	width: 41%;
+	height: 35vh;
+}
+
+.projects h2 {
+	margin-top: 0px;
+	display: inline-block;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	line-height: 0;
+}
+
+.projects h3 {
+	font-size: 10px;
+	color: #AAABB8;
+	font-family: 'Comfortaa', cursive;
+}
+
+.projects a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #AAABB8;
+	font-family: 'Comfortaa', cursive;
+}
+
+.projects a:hover {
+	color: black;
+	font-size: 17px;
+}
+
+.website {
+	float: right;
+}
+
+.first {
+	padding-top: 0px;
+}
+
+body {
+	background-color: white;
+	margin-left: 15%;
+	color: #25274D;
+}
